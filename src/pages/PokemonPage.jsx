@@ -87,9 +87,6 @@ export const PokemonPage = () => {
                 .join(", ") || "Loading..."}
             </Typography>
 
-            <Typography paragraph>
-              Habilidades: {pokemon.name || "Loading..."}
-            </Typography>
             {/* Agregar más información aquí según tus necesidades */}
           </CardContent>
         </Collapse>
